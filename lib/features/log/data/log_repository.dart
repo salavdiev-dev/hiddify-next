@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:hiddify/core/utils/exception_handler.dart';
-import 'package:hiddify/features/log/data/log_parser.dart';
-import 'package:hiddify/features/log/data/log_path_resolver.dart';
-import 'package:hiddify/features/log/model/log_entity.dart';
-import 'package:hiddify/features/log/model/log_failure.dart';
-import 'package:hiddify/hiddifycore/hiddify_core_service.dart';
-import 'package:hiddify/utils/custom_loggers.dart';
+import 'package:ysp/core/utils/exception_handler.dart';
+import 'package:ysp/features/log/data/log_parser.dart';
+import 'package:ysp/features/log/data/log_path_resolver.dart';
+import 'package:ysp/features/log/model/log_entity.dart';
+import 'package:ysp/features/log/model/log_failure.dart';
+import 'package:ysp/hiddifycore/hiddify_core_service.dart';
+import 'package:ysp/utils/custom_loggers.dart';
 
 abstract interface class LogRepository {
   TaskEither<LogFailure, Unit> init();

@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/failures.dart';
-import 'package:hiddify/features/settings/model/config_option_failure.dart';
+import 'package:ysp/core/localization/translations.dart';
+import 'package:ysp/core/model/failures.dart';
+import 'package:ysp/features/settings/model/config_option_failure.dart';
 
 part 'connection_failure.freezed.dart';
 

@@ -6,14 +6,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/constants.dart';
-import 'package:hiddify/core/model/failures.dart';
-import 'package:hiddify/core/notification/in_app_notification_controller.dart';
-import 'package:hiddify/features/profile/details/json_editor.dart';
-import 'package:hiddify/features/profile/details/profile_details_notifier.dart';
-import 'package:hiddify/features/profile/model/profile_entity.dart';
-import 'package:hiddify/utils/utils.dart';
+import 'package:ysp/core/localization/translations.dart';
+import 'package:ysp/core/model/constants.dart';
+import 'package:ysp/core/model/failures.dart';
+import 'package:ysp/core/notification/in_app_notification_controller.dart';
+import 'package:ysp/features/profile/details/json_editor.dart';
+import 'package:ysp/features/profile/details/profile_details_notifier.dart';
+import 'package:ysp/features/profile/model/profile_entity.dart';
+import 'package:ysp/utils/utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class ProfileDetailsPage extends HookConsumerWidget with PresLogger {

@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:hiddify/core/http_client/dio_http_client.dart';
-import 'package:hiddify/core/http_client/http_client_provider.dart';
-import 'package:hiddify/core/model/region.dart';
-import 'package:hiddify/core/preferences/general_preferences.dart';
-import 'package:hiddify/features/per_app_proxy/model/per_app_proxy_mode.dart';
-import 'package:hiddify/features/settings/data/config_option_repository.dart';
-import 'package:hiddify/utils/utils.dart';
+import 'package:ysp/core/http_client/dio_http_client.dart';
+import 'package:ysp/core/http_client/http_client_provider.dart';
+import 'package:ysp/core/model/region.dart';
+import 'package:ysp/core/preferences/general_preferences.dart';
+import 'package:ysp/features/per_app_proxy/model/per_app_proxy_mode.dart';
+import 'package:ysp/features/settings/data/config_option_repository.dart';
+import 'package:ysp/utils/utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 enum AutoSelectionResult {

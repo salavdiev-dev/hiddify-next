@@ -1,7 +1,7 @@
-import 'package:hiddify/core/directories/directories_provider.dart';
-import 'package:hiddify/core/notification/in_app_notification_controller.dart';
-import 'package:hiddify/core/preferences/general_preferences.dart';
-import 'package:hiddify/hiddifycore/hiddify_core_service.dart';
+import 'package:ysp/core/directories/directories_provider.dart';
+import 'package:ysp/core/notification/in_app_notification_controller.dart';
+import 'package:ysp/core/preferences/general_preferences.dart';
+import 'package:ysp/hiddifycore/hiddify_core_service.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'init_signal.g.dart';

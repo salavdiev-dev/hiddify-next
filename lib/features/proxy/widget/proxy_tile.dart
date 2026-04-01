@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hiddify/core/router/dialog/dialog_notifier.dart';
-import 'package:hiddify/features/proxy/active/ip_widget.dart';
-import 'package:hiddify/gen/fonts.gen.dart';
-import 'package:hiddify/hiddifycore/generated/v2/hcore/hcore.pb.dart';
-import 'package:hiddify/utils/custom_loggers.dart';
-import 'package:hiddify/utils/platform_utils.dart';
+import 'package:ysp/core/router/dialog/dialog_notifier.dart';
+import 'package:ysp/features/proxy/active/ip_widget.dart';
+import 'package:ysp/gen/fonts.gen.dart';
+import 'package:ysp/hiddifycore/generated/v2/hcore/hcore.pb.dart';
+import 'package:ysp/utils/custom_loggers.dart';
+import 'package:ysp/utils/platform_utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class ProxyTile extends HookConsumerWidget with PresLogger {

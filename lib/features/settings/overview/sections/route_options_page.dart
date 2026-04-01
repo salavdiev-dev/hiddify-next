@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/region.dart';
-import 'package:hiddify/core/preferences/general_preferences.dart';
-import 'package:hiddify/core/router/dialog/dialog_notifier.dart';
-import 'package:hiddify/features/per_app_proxy/model/per_app_proxy_mode.dart';
-import 'package:hiddify/features/per_app_proxy/overview/per_app_proxy_notifier.dart';
-import 'package:hiddify/features/settings/data/config_option_repository.dart';
-import 'package:hiddify/features/settings/widget/preference_tile.dart';
-import 'package:hiddify/singbox/model/singbox_config_enum.dart';
-import 'package:hiddify/utils/platform_utils.dart';
+import 'package:ysp/core/localization/translations.dart';
+import 'package:ysp/core/model/region.dart';
+import 'package:ysp/core/preferences/general_preferences.dart';
+import 'package:ysp/core/router/dialog/dialog_notifier.dart';
+import 'package:ysp/features/per_app_proxy/model/per_app_proxy_mode.dart';
+import 'package:ysp/features/per_app_proxy/overview/per_app_proxy_notifier.dart';
+import 'package:ysp/features/settings/data/config_option_repository.dart';
+import 'package:ysp/features/settings/widget/preference_tile.dart';
+import 'package:ysp/singbox/model/singbox_config_enum.dart';
+import 'package:ysp/utils/platform_utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class RouteOptionsPage extends HookConsumerWidget {
