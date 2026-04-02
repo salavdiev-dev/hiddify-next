@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:ysp/core/localization/translations.dart';
 import 'package:ysp/core/router/dialog/dialog_notifier.dart';
 import 'package:ysp/features/connection/model/connection_status.dart';
@@ -50,11 +49,7 @@ class ActiveProxyFooter extends ConsumerWidget with InfraLogger {
           BoxShadow(color: theme.colorScheme.secondary.withOpacity(.21), blurRadius: 10, offset: const Offset(0, 4)),
         ],
       ),
-      child: InkWell(
-        onTap: () {
-          context.goNamed('proxies');
-        },
-        child: Row(
+      child: Row(
           children: [
             InkWell(
               onTap: () async {
@@ -105,13 +100,8 @@ class ActiveProxyFooter extends ConsumerWidget with InfraLogger {
                 ],
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Icon(Icons.arrow_forward_ios, color: Colors.blue),
-            ),
           ],
         ),
-      ),
     );
   }
 }
